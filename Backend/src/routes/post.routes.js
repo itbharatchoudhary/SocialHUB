@@ -1,5 +1,5 @@
 import express from "express";
-import { createPost, getFeedPosts, getSinglePost, deletePost } from "../controllers/post.controller"
+import { createPost, getFeedPosts, getSinglePost, deletePost } from "../controllers/post.controller.js"
 import { protect } from "../middleware/auth.middleware.js"
 const router = express.Router();
 
